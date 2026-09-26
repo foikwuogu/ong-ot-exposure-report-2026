@@ -1,0 +1,8 @@
+cve_id,advisory,component_origin,component,basis,author_verified
+CVE-2025-14847,ICSA-26-218-01,third_party,MongoDB Server (out-of-bounds read / memory disclosure),"Confirmed by author against NVD, 2026-09-26",yes
+CVE-2026-31431,ICSA-26-209-04,third_party,Linux kernel crypto API (algif_aead / AF_ALG AEAD interface),"Author attribution 2026-09-26: Linux kernel vulnerability in crypto: algif_aead (kernel.org)",yes
+CVE-2025-10585,ICSA-26-202-06,third_party,Google Chromium V8 engine (type confusion),"Confirmed by author against NVD, 2026-09-26",yes
+CVE-2025-13223,ICSA-26-202-06,third_party,Google Chromium V8 engine (type confusion),"Confirmed by author against NVD, 2026-09-26",yes
+CVE-2026-24858,ICSA-26-071-02,third_party,Fortinet FortiOS (RUGGEDCOM APE1808 hosts a Fortinet NGFW),"Confirmed by author against NVD, 2026-09-26",yes
+CVE-2025-32433,ICSA-26-043-06,third_party,Erlang/OTP SSH server (unauthenticated RCE),"Confirmed by author against NVD, 2026-09-26",yes
+CVE-2019-11043,ICSA-26-027-02,third_party,PHP-FPM (env_path_info underflow RCE),"Confirmed by author against NVD, 2026-09-26",yes

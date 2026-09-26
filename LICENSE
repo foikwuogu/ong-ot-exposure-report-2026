@@ -1,0 +1,34 @@
+This repository uses three licenses, by content type.
+
+1. Code (code/, scripts/, run_all.sh): MIT License
+
+Copyright (c) 2026 Friday Ogochukwu Ikwuogu, Abidemi Orimogunje, Eria Othieno Pinyi, David Mike-Ewewie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. Report text, figures and documentation (report/*.docx, report/*.pdf,
+   report/figures/, docs/, README.md): Creative Commons Attribution 4.0
+   International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+
+3. Derived advisory tables (data/processed/, report/tables/): Open Database
+   License v1.0 (ODbL), https://opendatacommons.org/licenses/odbl/1-0/ ,
+   inherited from the ICS Advisory Project (https://github.com/icsadvprj/ICS-Advisory-Project).
+   Attribution: contains information from the ICS Advisory Project, which is
+   made available under the ODbL. KEV and Vulnrichment data are US Government
+   works (CISA); EPSS data from FIRST.org is used under FIRST's terms of use.

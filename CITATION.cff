@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this report, please cite it as below."
+type: report
+title: "State of OT Vulnerability Exposure in US Oil and Natural Gas, 2026"
+version: "1.0.0"
+date-released: "2026-09-26"
+authors:
+  - family-names: "Ikwuogu"
+    given-names: "Friday Ogochukwu"
+    orcid: "https://orcid.org/0009-0009-2222-1318"
+    affiliation: "Independent Researcher, Odessa, Texas, USA"
+  - family-names: "Orimogunje"
+    given-names: "Abidemi"
+    affiliation: "Electrical and Electronic Engineering Department, Redeemer's University, Ede, Osun State, Nigeria"
+  - family-names: "Pinyi"
+    given-names: "Eria Othieno"
+    affiliation: "Computer Science and Engineering Department, University of Fairfax, USA"
+  - family-names: "Mike-Ewewie"
+    given-names: "David"
+    affiliation: "Computer Science Department, University of Texas Permian Basin, Odessa, Texas, USA"
+license: CC-BY-4.0
+repository-code: "https://github.com/foikwuogu/ong-ot-exposure-report-2026"
+doi: "10.5281/zenodo.22974795"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22974795"
+    description: "Version DOI, v1.0.0"
+  - type: doi
+    value: "10.5281/zenodo.22974794"
+    description: "Concept DOI, resolves to the latest version"
+references:
+  - type: dataset
+    title: "ONG-OT Vulnerability Prioritization Dataset"
+    version: "1.1.0"
+    doi: "10.5281/zenodo.22729882"
+keywords:
+  - "operational technology"
+  - "oil and natural gas"
+  - "ICS advisories"
+  - "vulnerability exposure"
+  - "CISA KEV"
+  - "EPSS"

@@ -1,0 +1,774 @@
+{
+  "edition": 2026,
+  "snapshot_cutoff": "2026-09-10",
+  "ytd_label": "1 Jan - 10 Sep",
+  "build": {
+    "input_rows": 27944,
+    "input_rows_by_file_type": {
+      "master": 13972,
+      "per_year": 13972
+    },
+    "unique_pairs_in_input": 13791,
+    "master_rows": 13972,
+    "within_master_duplicate_pairs_dropped": 181,
+    "rows_after_dedup": 13791,
+    "rows_without_cve_id": 29,
+    "unparseable_release_dates": 0,
+    "max_release_date": "2026-09-10",
+    "advisories_total": 3976,
+    "advisories_in_scope": 1662,
+    "pairs_in_scope": 6132,
+    "scope_components_advisories": {
+      "sector_energy_or_oilgas": 1566,
+      "ong_class_mapped": 449,
+      "both": 216,
+      "excluded_for_non_us_distribution": 121,
+      "excluded_non_ong_energy_ev_charging": 16,
+      "excluded_non_ong_energy_ev_charging_edition_year_ytd": 13
+    }
+  },
+  "config": {
+    "epss_high_threshold": 0.1,
+    "tier2_epss_percentile": 0.95,
+    "mega_threshold": 50
+  },
+  "input": {
+    "dataset": "ONG-OT Vulnerability Prioritization Dataset v1.1",
+    "doi": "10.5281/zenodo.22729882",
+    "sources_pulled": "2026-09-12"
+  },
+  "ytd_current": {
+    "advisories": 155,
+    "advisories_excl_mega": 150,
+    "mega_advisories": 5,
+    "unique_cves": 1143,
+    "unique_cves_excl_mega": 406,
+    "vendors": 49,
+    "median_cves_per_advisory": 1.0,
+    "severity_counts": {
+      "High": 75,
+      "Critical": 45,
+      "Medium": 34,
+      "Low": 1
+    },
+    "severity_critical_pct": 29.0,
+    "severity_critical_or_high_pct": 77.4,
+    "median_advisory_cvss": 8.0,
+    "kev_cves": 7,
+    "kev_pct": 0.6,
+    "kev_advisories": 6,
+    "epss_scored": 1140,
+    "epss_median": 0.00275,
+    "epss_ge_threshold": 40,
+    "epss_ge_threshold_pct": 3.5,
+    "epss_pctl_ge_095": 44,
+    "ssvc_present": 587,
+    "ssvc_present_pct": 51.4,
+    "ssvc_active": 7,
+    "ssvc_poc": 35,
+    "ssvc_none": 545,
+    "remediation_text_pct": 12.4,
+    "no_patch_cves": 3,
+    "tier_counts": {
+      "tier1": 7,
+      "tier2": 67,
+      "tier3": 826,
+      "tier4": 243
+    },
+    "tier_pct": {
+      "tier1": 0.6,
+      "tier2": 5.9,
+      "tier3": 72.3,
+      "tier4": 21.3
+    },
+    "tier12": 74,
+    "cves_in_critical_or_high_advisories": 1090,
+    "tier12_pct": 6.5,
+    "tier12_no_patch": 0,
+    "tier12_in_mega_only": 42,
+    "ong_class_counts": {
+      "plc": 572,
+      "unmapped": 561,
+      "rtu": 7,
+      "ong_product_line": 2,
+      "scada": 1
+    },
+    "cpg_mapped_pct": 50.9,
+    "attack_matched_cves": 37,
+    "attack_entities": [
+      "INCONTROLLER"
+    ]
+  },
+  "ytd_prior": {
+    "advisories": 138,
+    "advisories_excl_mega": 135,
+    "mega_advisories": 3,
+    "unique_cves": 568,
+    "unique_cves_excl_mega": 387,
+    "vendors": 31,
+    "median_cves_per_advisory": 1.0,
+    "severity_counts": {
+      "High": 63,
+      "Critical": 45,
+      "Medium": 28,
+      "Low": 2
+    },
+    "severity_critical_pct": 32.6,
+    "severity_critical_or_high_pct": 78.3,
+    "median_advisory_cvss": 8.6,
+    "kev_cves": 7,
+    "kev_pct": 1.2,
+    "kev_advisories": 6,
+    "epss_scored": 567,
+    "epss_median": 0.00595,
+    "epss_ge_threshold": 47,
+    "epss_ge_threshold_pct": 8.3,
+    "epss_pctl_ge_095": 48,
+    "ssvc_present": 494,
+    "ssvc_present_pct": 87.0,
+    "ssvc_active": 7,
+    "ssvc_poc": 31,
+    "ssvc_none": 456,
+    "remediation_text_pct": 16.0,
+    "no_patch_cves": 3,
+    "tier_counts": {
+      "tier1": 7,
+      "tier2": 62,
+      "tier3": 277,
+      "tier4": 222
+    },
+    "tier_pct": {
+      "tier1": 1.2,
+      "tier2": 10.9,
+      "tier3": 48.8,
+      "tier4": 39.1
+    },
+    "tier12": 69,
+    "cves_in_critical_or_high_advisories": 532,
+    "tier12_pct": 12.1,
+    "tier12_no_patch": 0,
+    "tier12_in_mega_only": 22,
+    "ong_class_counts": {
+      "unmapped": 447,
+      "plc": 109,
+      "ong_product_line": 6,
+      "scada": 6
+    },
+    "cpg_mapped_pct": 21.3,
+    "attack_matched_cves": 0,
+    "attack_entities": []
+  },
+  "full_prior_year": {
+    "advisories": 186,
+    "advisories_excl_mega": 183,
+    "mega_advisories": 3,
+    "unique_cves": 651,
+    "unique_cves_excl_mega": 473,
+    "vendors": 43,
+    "median_cves_per_advisory": 1.0,
+    "severity_counts": {
+      "High": 92,
+      "Critical": 54,
+      "Medium": 38,
+      "Low": 2
+    },
+    "severity_critical_pct": 29.0,
+    "severity_critical_or_high_pct": 78.5,
+    "median_advisory_cvss": 8.55,
+    "kev_cves": 9,
+    "kev_pct": 1.4,
+    "kev_advisories": 8,
+    "epss_scored": 649,
+    "epss_median": 0.00554,
+    "epss_ge_threshold": 53,
+    "epss_ge_threshold_pct": 8.2,
+    "epss_pctl_ge_095": 54,
+    "ssvc_present": 569,
+    "ssvc_present_pct": 87.4,
+    "ssvc_active": 9,
+    "ssvc_poc": 34,
+    "ssvc_none": 526,
+    "remediation_text_pct": 18.1,
+    "no_patch_cves": 7,
+    "tier_counts": {
+      "tier1": 9,
+      "tier2": 69,
+      "tier3": 287,
+      "tier4": 286
+    },
+    "tier_pct": {
+      "tier1": 1.4,
+      "tier2": 10.6,
+      "tier3": 44.1,
+      "tier4": 43.9
+    },
+    "tier12": 78,
+    "cves_in_critical_or_high_advisories": 598,
+    "tier12_pct": 12.0,
+    "tier12_no_patch": 0,
+    "tier12_in_mega_only": 22,
+    "ong_class_counts": {
+      "unmapped": 515,
+      "plc": 124,
+      "ong_product_line": 6,
+      "scada": 6
+    },
+    "cpg_mapped_pct": 20.9,
+    "attack_matched_cves": 0,
+    "attack_entities": []
+  },
+  "all_in_scope": {
+    "advisories": 1662,
+    "advisories_excl_mega": 1647,
+    "mega_advisories": 15,
+    "unique_cves": 5502,
+    "unique_cves_excl_mega": 3950,
+    "vendors": 247,
+    "median_cves_per_advisory": 1.0,
+    "severity_counts": {
+      "High": 828,
+      "Medium": 402,
+      "Critical": 387,
+      "Low": 32,
+      "Not Applicable": 13
+    },
+    "severity_critical_pct": 23.3,
+    "severity_critical_or_high_pct": 73.1,
+    "median_advisory_cvss": 7.8,
+    "kev_cves": 59,
+    "kev_pct": 1.1,
+    "kev_advisories": 43,
+    "epss_scored": 5487,
+    "epss_median": 0.00956,
+    "epss_ge_threshold": 400,
+    "epss_ge_threshold_pct": 7.3,
+    "epss_pctl_ge_095": 425,
+    "ssvc_present": 2329,
+    "ssvc_present_pct": 42.3,
+    "ssvc_active": 60,
+    "ssvc_poc": 168,
+    "ssvc_none": 2101,
+    "remediation_text_pct": 10.1,
+    "no_patch_cves": 19,
+    "tier_counts": {
+      "tier1": 59,
+      "tier2": 516,
+      "tier3": 2589,
+      "tier4": 2338
+    },
+    "tier_pct": {
+      "tier1": 1.1,
+      "tier2": 9.4,
+      "tier3": 47.1,
+      "tier4": 42.5
+    },
+    "tier12": 575,
+    "cves_in_critical_or_high_advisories": 4856,
+    "tier12_pct": 10.5,
+    "tier12_no_patch": 1,
+    "tier12_in_mega_only": 170,
+    "ong_class_counts": {
+      "unmapped": 3404,
+      "plc": 1927,
+      "scada": 66,
+      "rtu": 57,
+      "ong_product_line": 48
+    },
+    "cpg_mapped_pct": 38.1,
+    "attack_matched_cves": 41,
+    "attack_entities": [
+      "INCONTROLLER"
+    ]
+  },
+  "yoy": {
+    "advisories": 12.3,
+    "unique_cves": 101.2,
+    "advisories_excl_mega": 11.1,
+    "unique_cves_excl_mega": 4.9,
+    "vendors": 58.1,
+    "kev_cves": 0.0
+  },
+  "universe_ytd_current": {
+    "advisories": 374,
+    "unique_cves": 1783,
+    "in_scope_advisory_share_pct": 41.4
+  },
+  "trend": [
+    {
+      "year": 2012,
+      "advisories_full_year": 42,
+      "advisories_ytd": 28,
+      "cves_full_year": 101,
+      "cves_ytd": 76,
+      "cves_ytd_excl_mega": 76,
+      "critical_pct": 2.4,
+      "high_pct": 64.3,
+      "medium_pct": 33.3,
+      "low_pct": 0.0,
+      "kev_pct_of_cves": 0.0,
+      "vendors": 23
+    },
+    {
+      "year": 2013,
+      "advisories_full_year": 46,
+      "advisories_ytd": 35,
+      "cves_full_year": 79,
+      "cves_ytd": 60,
+      "cves_ytd_excl_mega": 60,
+      "critical_pct": 2.2,
+      "high_pct": 60.9,
+      "medium_pct": 37.0,
+      "low_pct": 0.0,
+      "kev_pct_of_cves": 0.0,
+      "vendors": 32
+    },
+    {
+      "year": 2014,
+      "advisories_full_year": 40,
+      "advisories_ytd": 28,
+      "cves_full_year": 69,
+      "cves_ytd": 43,
+      "cves_ytd_excl_mega": 43,
+      "critical_pct": 0.0,
+      "high_pct": 42.5,
+      "medium_pct": 50.0,
+      "low_pct": 5.0,
+      "kev_pct_of_cves": 2.9,
+      "vendors": 25
+    },
+    {
+      "year": 2015,
+      "advisories_full_year": 82,
+      "advisories_ytd": 60,
+      "cves_full_year": 119,
+      "cves_ytd": 75,
+      "cves_ytd_excl_mega": 75,
+      "critical_pct": 17.1,
+      "high_pct": 30.5,
+      "medium_pct": 39.0,
+      "low_pct": 13.4,
+      "kev_pct_of_cves": 1.7,
+      "vendors": 39
+    },
+    {
+      "year": 2016,
+      "advisories_full_year": 89,
+      "advisories_ytd": 54,
+      "cves_full_year": 189,
+      "cves_ytd": 116,
+      "cves_ytd_excl_mega": 116,
+      "critical_pct": 13.5,
+      "high_pct": 49.4,
+      "medium_pct": 31.5,
+      "low_pct": 5.6,
+      "kev_pct_of_cves": 1.1,
+      "vendors": 33
+    },
+    {
+      "year": 2017,
+      "advisories_full_year": 92,
+      "advisories_ytd": 67,
+      "cves_full_year": 237,
+      "cves_ytd": 193,
+      "cves_ytd_excl_mega": 132,
+      "critical_pct": 30.4,
+      "high_pct": 43.5,
+      "medium_pct": 26.1,
+      "low_pct": 0.0,
+      "kev_pct_of_cves": 4.6,
+      "vendors": 30
+    },
+    {
+      "year": 2018,
+      "advisories_full_year": 117,
+      "advisories_ytd": 75,
+      "cves_full_year": 226,
+      "cves_ytd": 166,
+      "cves_ytd_excl_mega": 166,
+      "critical_pct": 24.8,
+      "high_pct": 47.0,
+      "medium_pct": 28.2,
+      "low_pct": 0.0,
+      "kev_pct_of_cves": 4.9,
+      "vendors": 26
+    },
+    {
+      "year": 2019,
+      "advisories_full_year": 117,
+      "advisories_ytd": 79,
+      "cves_full_year": 312,
+      "cves_ytd": 186,
+      "cves_ytd_excl_mega": 186,
+      "critical_pct": 27.4,
+      "high_pct": 49.6,
+      "medium_pct": 22.2,
+      "low_pct": 0.9,
+      "kev_pct_of_cves": 0.3,
+      "vendors": 24
+    },
+    {
+      "year": 2020,
+      "advisories_full_year": 123,
+      "advisories_ytd": 97,
+      "cves_full_year": 366,
+      "cves_ytd": 295,
+      "cves_ytd_excl_mega": 295,
+      "critical_pct": 33.3,
+      "high_pct": 50.4,
+      "medium_pct": 11.4,
+      "low_pct": 4.9,
+      "kev_pct_of_cves": 0.3,
+      "vendors": 27
+    },
+    {
+      "year": 2021,
+      "advisories_full_year": 130,
+      "advisories_ytd": 89,
+      "cves_full_year": 450,
+      "cves_ytd": 270,
+      "cves_ytd_excl_mega": 270,
+      "critical_pct": 26.2,
+      "high_pct": 51.5,
+      "medium_pct": 21.5,
+      "low_pct": 0.8,
+      "kev_pct_of_cves": 0.4,
+      "vendors": 23
+    },
+    {
+      "year": 2022,
+      "advisories_full_year": 117,
+      "advisories_ytd": 80,
+      "cves_full_year": 328,
+      "cves_ytd": 253,
+      "cves_ytd_excl_mega": 189,
+      "critical_pct": 23.1,
+      "high_pct": 55.6,
+      "medium_pct": 20.5,
+      "low_pct": 0.9,
+      "kev_pct_of_cves": 1.5,
+      "vendors": 31
+    },
+    {
+      "year": 2023,
+      "advisories_full_year": 105,
+      "advisories_ytd": 72,
+      "cves_full_year": 775,
+      "cves_ytd": 332,
+      "cves_ytd_excl_mega": 210,
+      "critical_pct": 30.5,
+      "high_pct": 42.9,
+      "medium_pct": 24.8,
+      "low_pct": 1.9,
+      "kev_pct_of_cves": 0.4,
+      "vendors": 29
+    },
+    {
+      "year": 2024,
+      "advisories_full_year": 177,
+      "advisories_ytd": 105,
+      "cves_full_year": 669,
+      "cves_ytd": 514,
+      "cves_ytd_excl_mega": 357,
+      "critical_pct": 20.9,
+      "high_pct": 57.6,
+      "medium_pct": 21.5,
+      "low_pct": 0.0,
+      "kev_pct_of_cves": 1.0,
+      "vendors": 34
+    },
+    {
+      "year": 2025,
+      "advisories_full_year": 186,
+      "advisories_ytd": 138,
+      "cves_full_year": 651,
+      "cves_ytd": 568,
+      "cves_ytd_excl_mega": 387,
+      "critical_pct": 29.0,
+      "high_pct": 49.5,
+      "medium_pct": 20.4,
+      "low_pct": 1.1,
+      "kev_pct_of_cves": 1.4,
+      "vendors": 43
+    },
+    {
+      "year": 2026,
+      "advisories_full_year": null,
+      "advisories_ytd": 155,
+      "cves_full_year": null,
+      "cves_ytd": 1143,
+      "cves_ytd_excl_mega": 406,
+      "critical_pct": 29.0,
+      "high_pct": 48.4,
+      "medium_pct": 21.9,
+      "low_pct": 0.6,
+      "kev_pct_of_cves": 0.6,
+      "vendors": 49
+    }
+  ],
+  "trend_summary": {
+    "peak_full_year": 2025,
+    "peak_full_year_advisories": 186,
+    "ytd_rank_current": 1,
+    "ytd_years_compared": 15,
+    "advisories_ytd_2021": 89,
+    "ytd_growth_since_2021_pct": 74.2
+  },
+  "vendors_ytd": [
+    {
+      "vendor": "Siemens",
+      "advisories": 31,
+      "cves": 706,
+      "kev_advisories": 4,
+      "share_pct": 20.0
+    },
+    {
+      "vendor": "Schneider Electric",
+      "advisories": 24,
+      "cves": 72,
+      "kev_advisories": 0,
+      "share_pct": 15.5
+    },
+    {
+      "vendor": "ABB",
+      "advisories": 15,
+      "cves": 55,
+      "kev_advisories": 1,
+      "share_pct": 9.7
+    },
+    {
+      "vendor": "Hitachi Energy",
+      "advisories": 12,
+      "cves": 21,
+      "kev_advisories": 0,
+      "share_pct": 7.7
+    },
+    {
+      "vendor": "Rockwell Automation",
+      "advisories": 12,
+      "cves": 15,
+      "kev_advisories": 0,
+      "share_pct": 7.7
+    },
+    {
+      "vendor": "Johnson Controls Inc.",
+      "advisories": 8,
+      "cves": 11,
+      "kev_advisories": 0,
+      "share_pct": 5.2
+    },
+    {
+      "vendor": "B&R Industrial Automation GmbH",
+      "advisories": 6,
+      "cves": 40,
+      "kev_advisories": 0,
+      "share_pct": 3.9
+    },
+    {
+      "vendor": "MZ Automation GmbH",
+      "advisories": 4,
+      "cves": 15,
+      "kev_advisories": 0,
+      "share_pct": 2.6
+    },
+    {
+      "vendor": "Yokogawa",
+      "advisories": 3,
+      "cves": 16,
+      "kev_advisories": 0,
+      "share_pct": 1.9
+    },
+    {
+      "vendor": "Festo Didactic SE",
+      "advisories": 1,
+      "cves": 139,
+      "kev_advisories": 1,
+      "share_pct": 0.6
+    }
+  ],
+  "vendor_concentration": {
+    "hhi_ytd_current": 922.0,
+    "hhi_ytd_prior": 1857.0,
+    "top5_share_pct": 60.6,
+    "top1_vendor": "Siemens",
+    "top1_share_pct": 20.0,
+    "hq_country_ytd": {
+      "Germany": 39,
+      "United States": 30,
+      "Switzerland": 29,
+      "France": 25,
+      "Ireland": 8,
+      "Austria": 6
+    }
+  },
+  "cwes_ytd": [
+    {
+      "cwe": "CWE-306",
+      "advisories": 20,
+      "share_pct": 12.9,
+      "name": "Missing authentication for critical function",
+      "share_pct_2012_2025": 4.8
+    },
+    {
+      "cwe": "CWE-787",
+      "advisories": 15,
+      "share_pct": 9.7,
+      "name": "Out-of-bounds write",
+      "share_pct_2012_2025": 4.1
+    },
+    {
+      "cwe": "CWE-125",
+      "advisories": 13,
+      "share_pct": 8.4,
+      "name": "Out-of-bounds read",
+      "share_pct_2012_2025": 4.4
+    },
+    {
+      "cwe": "CWE-79",
+      "advisories": 12,
+      "share_pct": 7.7,
+      "name": "Cross-site scripting",
+      "share_pct_2012_2025": 7.9
+    },
+    {
+      "cwe": "CWE-190",
+      "advisories": 12,
+      "share_pct": 7.7,
+      "name": "Integer overflow",
+      "share_pct_2012_2025": 2.1
+    },
+    {
+      "cwe": "CWE-476",
+      "advisories": 11,
+      "share_pct": 7.1,
+      "name": "NULL pointer dereference",
+      "share_pct_2012_2025": 2.9
+    },
+    {
+      "cwe": "CWE-416",
+      "advisories": 10,
+      "share_pct": 6.5,
+      "name": "Use after free",
+      "share_pct_2012_2025": 2.7
+    },
+    {
+      "cwe": "CWE-119",
+      "advisories": 10,
+      "share_pct": 6.5,
+      "name": "Improper restriction of operations within memory buffer",
+      "share_pct_2012_2025": 5.7
+    },
+    {
+      "cwe": "CWE-121",
+      "advisories": 10,
+      "share_pct": 6.5,
+      "name": "Stack-based buffer overflow",
+      "share_pct_2012_2025": 9.6
+    },
+    {
+      "cwe": "CWE-20",
+      "advisories": 8,
+      "share_pct": 5.2,
+      "name": "Improper input validation",
+      "share_pct_2012_2025": 14.0
+    }
+  ],
+  "cwe_306": {
+    "ytd_current_advisories": 20,
+    "ytd_current_pct": 12.9,
+    "hist_pct": 4.8,
+    "rank_ytd_current": 1
+  },
+  "cwes_ytd_excl_mega_top3": [
+    "CWE-306",
+    "CWE-787",
+    "CWE-79"
+  ],
+  "kev_ytd_list": [
+    "CVE-2025-14847",
+    "CVE-2026-31431",
+    "CVE-2025-10585",
+    "CVE-2025-13223",
+    "CVE-2026-24858",
+    "CVE-2025-32433",
+    "CVE-2019-11043"
+  ],
+  "kev_ytd_attribution": {
+    "third_party": 7,
+    "vendor_native": 0,
+    "unknown": 0,
+    "in_mega_advisories": 3,
+    "all_author_verified": true
+  },
+  "kev_ytd_table": [
+    {
+      "cve_id": "CVE-2025-14847",
+      "ICS-CERT_Number": "ICSA-26-218-01",
+      "Vendor": "ABB",
+      "Product": "ABB Ability Zenon",
+      "epss": 0.83218,
+      "ssvc_exploitation": "active",
+      "component_origin": "third_party",
+      "component": "MongoDB Server (out-of-bounds read / memory disclosure)"
+    },
+    {
+      "cve_id": "CVE-2026-31431",
+      "ICS-CERT_Number": "ICSA-26-209-04",
+      "Vendor": "Siemens",
+      "Product": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+      "epss": 0.99907,
+      "ssvc_exploitation": "active",
+      "component_origin": "third_party",
+      "component": "Linux kernel crypto API (algif_aead / AF_ALG AEAD interface)"
+    },
+    {
+      "cve_id": "CVE-2025-10585",
+      "ICS-CERT_Number": "ICSA-26-202-06",
+      "Vendor": "Siemens",
+      "Product": "Siemens CADRA",
+      "epss": 0.05391,
+      "ssvc_exploitation": "active",
+      "component_origin": "third_party",
+      "component": "Google Chromium V8 engine (type confusion)"
+    },
+    {
+      "cve_id": "CVE-2025-13223",
+      "ICS-CERT_Number": "ICSA-26-202-06",
+      "Vendor": "Siemens",
+      "Product": "Siemens CADRA",
+      "epss": 0.05026,
+      "ssvc_exploitation": "active",
+      "component_origin": "third_party",
+      "component": "Google Chromium V8 engine (type confusion)"
+    },
+    {
+      "cve_id": "CVE-2026-24858",
+      "ICS-CERT_Number": "ICSA-26-071-02",
+      "Vendor": "Siemens",
+      "Product": "Siemens RUGGEDCOM APE1808 Devices",
+      "epss": 0.86088,
+      "ssvc_exploitation": "active",
+      "component_origin": "third_party",
+      "component": "Fortinet FortiOS (RUGGEDCOM APE1808 hosts a Fortinet NGFW)"
+    },
+    {
+      "cve_id": "CVE-2025-32433",
+      "ICS-CERT_Number": "ICSA-26-043-06",
+      "Vendor": "Siemens",
+      "Product": "Siemens SINEC OS",
+      "epss": 0.98754,
+      "ssvc_exploitation": "active",
+      "component_origin": "third_party",
+      "component": "Erlang/OTP SSH server (unauthenticated RCE)"
+    },
+    {
+      "cve_id": "CVE-2019-11043",
+      "ICS-CERT_Number": "ICSA-26-027-02",
+      "Vendor": "Festo Didactic SE",
+      "Product": "Festo Didactic SE MES PC",
+      "epss": 0.9978,
+      "ssvc_exploitation": "active",
+      "component_origin": "third_party",
+      "component": "PHP-FPM (env_path_info underflow RCE)"
+    }
+  ]
+}

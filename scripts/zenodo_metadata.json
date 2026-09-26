@@ -1,0 +1,38 @@
+{
+  "upload_type": "publication",
+  "publication_type": "report",
+  "title": "State of OT Vulnerability Exposure in US Oil and Natural Gas, 2026",
+  "description": "<p>Annual report (2026 edition) measuring operational-technology vulnerability exposure disclosed in CISA ICS advisories relevant to the US oil and natural gas sector: advisory and CVE volume (with roll-up sensitivity), vendor concentration, severity, exploitation evidence (CISA KEV, CISA SSVC, FIRST EPSS) organised into exploitation-first priority tiers, weakness classes (CWE), remediation-signal coverage and ATT&amp;CK for ICS overlap. Covers advisories published 1 January - 10 September 2026 against the same window in 2012-2025. Built reproducibly from the ONG-OT Vulnerability Prioritization Dataset v1.1 (doi:10.5281/zenodo.22729882); every number is generated from the pipeline's stats file. Limitations: see docs/LIMITATIONS.md in the repository.</p>",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "access_right": "open",
+  "keywords": [
+    "operational technology",
+    "oil and natural gas",
+    "ICS advisories",
+    "CISA KEV",
+    "EPSS",
+    "SSVC",
+    "vulnerability exposure",
+    "critical infrastructure",
+    "annual report"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22729882",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/foikwuogu/ong-ot-exposure-report-2026",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22975133",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
+    }
+  ],
+  "publication_date": "2026-09-26"
+}

@@ -1,0 +1,25 @@
+{
+  "input_rows": 27944,
+  "input_rows_by_file_type": {
+    "master": 13972,
+    "per_year": 13972
+  },
+  "unique_pairs_in_input": 13791,
+  "master_rows": 13972,
+  "within_master_duplicate_pairs_dropped": 181,
+  "rows_after_dedup": 13791,
+  "rows_without_cve_id": 29,
+  "unparseable_release_dates": 0,
+  "max_release_date": "2026-09-10",
+  "advisories_total": 3976,
+  "advisories_in_scope": 1662,
+  "pairs_in_scope": 6132,
+  "scope_components_advisories": {
+    "sector_energy_or_oilgas": 1566,
+    "ong_class_mapped": 449,
+    "both": 216,
+    "excluded_for_non_us_distribution": 121,
+    "excluded_non_ong_energy_ev_charging": 16,
+    "excluded_non_ong_energy_ev_charging_edition_year_ytd": 13
+  }
+}

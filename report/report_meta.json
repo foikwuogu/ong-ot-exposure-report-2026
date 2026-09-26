@@ -1,0 +1,11 @@
+{
+  "title": "State of OT Vulnerability Exposure in US Oil and Natural Gas, 2026",
+  "subtitle": "Annual report, 2026 edition",
+  "version": "1.0.0",
+  "series_note": "First edition of an annual series. The 2027 edition is scheduled for December 2027 and will be built by re-running this repository against a new frozen snapshot.",
+  "release_date": "2026-09-26",
+  "doi": "10.5281/zenodo.22974795",
+  "concept_doi": "10.5281/zenodo.22974794",
+  "repository": "https://github.com/foikwuogu/ong-ot-exposure-report-2026",
+  "license": "Report text and figures: CC BY 4.0. Code: MIT. Derived tables: ODbL v1.0 (inherited from the ICS Advisory Project)."
+}

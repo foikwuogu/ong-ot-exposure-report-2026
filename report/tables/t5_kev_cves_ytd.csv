@@ -1,0 +1,8 @@
+cve_id,ICS-CERT_Number,Vendor,Product,epss,ssvc_exploitation,component_origin,component
+CVE-2025-14847,ICSA-26-218-01,ABB,ABB Ability Zenon,0.83218,active,third_party,MongoDB Server (out-of-bounds read / memory disclosure)
+CVE-2026-31431,ICSA-26-209-04,Siemens,Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP,0.99907,active,third_party,Linux kernel crypto API (algif_aead / AF_ALG AEAD interface)
+CVE-2025-10585,ICSA-26-202-06,Siemens,Siemens CADRA,0.05391,active,third_party,Google Chromium V8 engine (type confusion)
+CVE-2025-13223,ICSA-26-202-06,Siemens,Siemens CADRA,0.05026,active,third_party,Google Chromium V8 engine (type confusion)
+CVE-2026-24858,ICSA-26-071-02,Siemens,Siemens RUGGEDCOM APE1808 Devices,0.86088,active,third_party,Fortinet FortiOS (RUGGEDCOM APE1808 hosts a Fortinet NGFW)
+CVE-2025-32433,ICSA-26-043-06,Siemens,Siemens SINEC OS,0.98754,active,third_party,Erlang/OTP SSH server (unauthenticated RCE)
+CVE-2019-11043,ICSA-26-027-02,Festo Didactic SE,Festo Didactic SE MES PC,0.9978,active,third_party,PHP-FPM (env_path_info underflow RCE)

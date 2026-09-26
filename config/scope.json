@@ -1,0 +1,38 @@
+{
+  "_comment": "Every analytic judgment the 2026 edition makes, in one file. Each entry is a provisional choice the author must confirm or change (docs/VERIFY_CHECKLIST.md, section 'Judgment calls'). Change a value here and re-run code/02 onward; nothing else hard-codes these.",
+  "dedup": {
+    "keep_source_file_pattern": "CISA_ICS_ADV_Master",
+    "key": [
+      "cve_id",
+      "ICS-CERT_Number"
+    ],
+    "why": "v1.1 ingested the ICS Advisory Project Master file AND the per-year files; the Master file is a superset, so every pair appears twice. Keeping only Master rows restores one row per pair."
+  },
+  "scope": {
+    "sector_regex": "energy|oil and gas",
+    "include_mapped_ong_product_classes": true,
+    "us_distribution_regex": "worldwide|united states|\\bus\\b|\\busa\\b|north america|americas|global|multiple",
+    "why": "An advisory is ONG-relevant if CISA tags it Energy (the sector that contains oil and natural gas) or 'oil and gas', or if the v1.1 taxonomy maps the product to an ONG process-control class. It is US-relevant if CISA's distribution field includes the US, worldwide or an unspecified multi-country footprint.",
+    "exclude_regex": "charg|\\bEV\\b|OCPP|EVSE|wallbox|e-mobility|emobility",
+    "exclude_why": "EV-charging platforms, chargers and charge-management systems carry CISA's Energy tag but are not oil and natural gas OT. A 2026 wave of them (13 advisories) would otherwise inflate the ONG count. Matched on advisory title or vendor; excluded advisories are counted in build_log.json."
+  },
+  "windows": {
+    "edition_year": 2026,
+    "snapshot_cutoff": "2026-09-10",
+    "ytd_start_month_day": "01-01",
+    "ytd_end_month_day": "09-10",
+    "trend_start_year": 2012,
+    "why": "The input snapshot's last advisory release date is 2026-09-10, so every year is compared on the same 1 Jan - 10 Sep window. Full-year counts are shown for 2012-2025 only."
+  },
+  "priority_tiers": {
+    "tier1": "CVE is in CISA KEV",
+    "tier2": "not KEV, but CISA SSVC Exploitation is 'active' or 'poc', or EPSS percentile >= tier2_epss_percentile",
+    "tier2_epss_percentile": 0.95,
+    "tier3": "no exploitation evidence, advisory severity Critical",
+    "tier4": "everything else",
+    "why": "Exploitation evidence first (KEV, then SSVC/EPSS), severity second - the ordering CISA's own KEV/SSVC guidance implies. Thresholds are the author's."
+  },
+  "mega_advisory_cve_threshold": 50,
+  "mega_advisory_why": "A few advisories (third-party component roll-ups) list hundreds of CVEs. Counts are reported with and without advisories above this many CVEs so one roll-up cannot drive a year-over-year change.",
+  "epss_high_threshold": 0.1
+}

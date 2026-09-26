@@ -1,0 +1,8 @@
+{
+  "name": "ong-ot-exposure-report-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Builds the State of OT Vulnerability Exposure in US Oil and Natural Gas report from report/stats.json",
+  "license": "MIT",
+  "dependencies": { "docx": "^9.0.0" }
+}

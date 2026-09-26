@@ -1,0 +1,4 @@
+# v1.0.0 files uploaded to Zenodo; MD5 matched the Zenodo record on 2026-09-26
+2865213a4848d8871d8e595681649f92  ONG_OT_Exposure_Report_2026.pdf
+8c577d51f6d247e0e429a7ada8a82fd6  ONG_OT_Exposure_Report_2026.docx
+4ac175720f644a6895b981b13f6f64c7  ong-ot-exposure-report-2026-v1.0.0-source.zip

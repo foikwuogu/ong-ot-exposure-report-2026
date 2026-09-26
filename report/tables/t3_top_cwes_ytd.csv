@@ -1,0 +1,11 @@
+cwe,advisories,share_pct,name,share_pct_2012_2025
+CWE-306,20,12.9,Missing authentication for critical function,4.8
+CWE-787,15,9.7,Out-of-bounds write,4.1
+CWE-125,13,8.4,Out-of-bounds read,4.4
+CWE-79,12,7.7,Cross-site scripting,7.9
+CWE-190,12,7.7,Integer overflow,2.1
+CWE-476,11,7.1,NULL pointer dereference,2.9
+CWE-416,10,6.5,Use after free,2.7
+CWE-119,10,6.5,Improper restriction of operations within memory buffer,5.7
+CWE-121,10,6.5,Stack-based buffer overflow,9.6
+CWE-20,8,5.2,Improper input validation,14.0

@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+.venv/
+.env
+*.token
+~$*
+# the 33 MB frozen input is fetched by code/01_ingest.py from Zenodo, not committed
+data/raw/ong_ot_dataset_v1.1.csv
+.~lock.*#
+_to_delete/
