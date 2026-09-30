@@ -46,3 +46,7 @@ Code MIT; report, figures and docs CC BY 4.0; derived advisory tables ODbL v1.0 
 ## Citation
 
 See `CITATION.cff`.
+
+## AI assistance
+
+**AI assistance:** AI coding tools (Claude, Anthropic) were used for code scaffolding, test fixtures, and documentation drafting. The problem definition, methodology, classification rules, mappings, and analytic decisions are the author's own.
